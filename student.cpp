@@ -21,18 +21,18 @@ public:
 
 void student::setdata()
 {
-    cout<<"/nwrite student name:";
-    cout<<"/nwrite student rool no:";
+    cout<<"\nwrite student name:";
+    cout<<"\nwrite student rool no:";
     cin>>rollno;
-    cout<<"/nwrite student sub1 marks:";
+    cout<<"\nwrite student sub1 marks:";
     cin>>sub1;
-    cout<<"/nwrite student sub2 marks:";
+    cout<<"\nwrite student sub2 marks:";
     cin>>sub2;
-    cout<<"/nwrite student sub3 marks:";
+    cout<<"\nwrite student sub3 marks:";
     cin>>sub3;
-    cout<<"/nwrite student sub4 marks:";
+    cout<<"\nwrite student sub4 marks:";
     cin>>sub4;
-    cout<<"/nwrite student sub5 marks:";
+    cout<<"\nwrite student sub5 marks:";
     cin>>sub5;
     avg=(sub1+sub2+sub3+sub4+sub5)/5;
     if(avg*100>90)
@@ -46,10 +46,9 @@ void student::setdata()
     else grade='F';
 }
 
-
-
 int main()
 {
-
+student stud;
+stud.setdata();
 return 0;
 }
